@@ -1,0 +1,335 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp',
+1 verbose cli   'gulp-cssmin',
+1 verbose cli   'gulp-rename',
+1 verbose cli   'gulp',
+1 verbose cli   'concat-css',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'gulp', null ]
+5 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gulp',
+6 verbose parsed url   path: 'gulp',
+6 verbose parsed url   href: 'gulp' }
+7 verbose cache add [ 'gulp-cssmin', null ]
+8 verbose cache add name=undefined spec="gulp-cssmin" args=["gulp-cssmin",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'gulp-cssmin',
+9 verbose parsed url   path: 'gulp-cssmin',
+9 verbose parsed url   href: 'gulp-cssmin' }
+10 verbose cache add [ 'gulp-rename', null ]
+11 verbose cache add name=undefined spec="gulp-rename" args=["gulp-rename",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'gulp-rename',
+12 verbose parsed url   path: 'gulp-rename',
+12 verbose parsed url   href: 'gulp-rename' }
+13 verbose cache add [ 'gulp', null ]
+14 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'gulp',
+15 verbose parsed url   path: 'gulp',
+15 verbose parsed url   href: 'gulp' }
+16 verbose cache add [ 'concat-css', null ]
+17 verbose cache add name=undefined spec="concat-css" args=["concat-css",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'concat-css',
+18 verbose parsed url   path: 'concat-css',
+18 verbose parsed url   href: 'concat-css' }
+19 silly lockFile 9750c68d-gulp gulp
+20 verbose lock gulp C:\Users\adminespec\AppData\Roaming\npm-cache\9750c68d-gulp.lock
+21 silly lockFile e1115b4f-gulp-cssmin gulp-cssmin
+22 verbose lock gulp-cssmin C:\Users\adminespec\AppData\Roaming\npm-cache\e1115b4f-gulp-cssmin.lock
+23 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+24 verbose lock gulp-rename C:\Users\adminespec\AppData\Roaming\npm-cache\8ff38cb7-gulp-rename.lock
+25 silly lockFile 9750c68d-gulp gulp
+26 verbose lock gulp C:\Users\adminespec\AppData\Roaming\npm-cache\9750c68d-gulp.lock
+27 silly lockFile 45fe17e1-concat-css concat-css
+28 verbose lock concat-css C:\Users\adminespec\AppData\Roaming\npm-cache\45fe17e1-concat-css.lock
+29 silly lockFile 9750c68d-gulp gulp
+30 silly lockFile 9750c68d-gulp gulp
+31 silly lockFile e1115b4f-gulp-cssmin gulp-cssmin
+32 silly lockFile e1115b4f-gulp-cssmin gulp-cssmin
+33 silly lockFile 45fe17e1-concat-css concat-css
+34 silly lockFile 45fe17e1-concat-css concat-css
+35 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+36 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+37 verbose addNamed [ 'gulp', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile 72f4391e-gulp gulp@
+40 verbose lock gulp@ C:\Users\adminespec\AppData\Roaming\npm-cache\72f4391e-gulp.lock
+41 verbose addNamed [ 'gulp-cssmin', '' ]
+42 verbose addNamed [ null, '*' ]
+43 silly lockFile 2425ce01-gulp-cssmin gulp-cssmin@
+44 verbose lock gulp-cssmin@ C:\Users\adminespec\AppData\Roaming\npm-cache\2425ce01-gulp-cssmin.lock
+45 verbose addNamed [ 'concat-css', '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile 8ae3c01b-concat-css concat-css@
+48 verbose lock concat-css@ C:\Users\adminespec\AppData\Roaming\npm-cache\8ae3c01b-concat-css.lock
+49 verbose addNamed [ 'gulp-rename', '' ]
+50 verbose addNamed [ null, '*' ]
+51 silly lockFile 81aa0665-gulp-rename gulp-rename@
+52 verbose lock gulp-rename@ C:\Users\adminespec\AppData\Roaming\npm-cache\81aa0665-gulp-rename.lock
+53 silly addNameRange { name: 'gulp-cssmin', range: '*', hasData: false }
+54 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+55 silly addNameRange { name: 'concat-css', range: '*', hasData: false }
+56 silly addNameRange { name: 'gulp-rename', range: '*', hasData: false }
+57 verbose request where is /gulp
+58 verbose request registry https://registry.npmjs.org/
+59 verbose request id 5e3139594c522a8a
+60 verbose url raw /gulp
+61 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+62 verbose url resolved https://registry.npmjs.org/gulp
+63 verbose request where is https://registry.npmjs.org/gulp
+64 info trying registry request attempt 1 at 19:53:42
+65 verbose etag "DO9QOICW8EP2FLDB9V21LAGH6"
+66 http GET https://registry.npmjs.org/gulp
+67 verbose request where is /concat-css
+68 verbose request registry https://registry.npmjs.org/
+69 verbose url raw /concat-css
+70 verbose url resolving [ 'https://registry.npmjs.org/', './concat-css' ]
+71 verbose url resolved https://registry.npmjs.org/concat-css
+72 verbose request where is https://registry.npmjs.org/concat-css
+73 info trying registry request attempt 1 at 19:53:42
+74 verbose etag "7QWMZG9RFEIDY6GFF0Y4SIE6B"
+75 http GET https://registry.npmjs.org/concat-css
+76 verbose request where is /gulp-cssmin
+77 verbose request registry https://registry.npmjs.org/
+78 verbose url raw /gulp-cssmin
+79 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-cssmin' ]
+80 verbose url resolved https://registry.npmjs.org/gulp-cssmin
+81 verbose request where is https://registry.npmjs.org/gulp-cssmin
+82 info trying registry request attempt 1 at 19:53:42
+83 verbose etag "A3QY5PB6I8PIVN0FBSSJJSEO8"
+84 http GET https://registry.npmjs.org/gulp-cssmin
+85 verbose request where is /gulp-rename
+86 verbose request registry https://registry.npmjs.org/
+87 verbose url raw /gulp-rename
+88 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rename' ]
+89 verbose url resolved https://registry.npmjs.org/gulp-rename
+90 verbose request where is https://registry.npmjs.org/gulp-rename
+91 info trying registry request attempt 1 at 19:53:42
+92 verbose etag "402GFFWWWRVVV0EGBHQ3WBQS4"
+93 http GET https://registry.npmjs.org/gulp-rename
+94 silly lockFile 9750c68d-gulp gulp
+95 silly lockFile 9750c68d-gulp gulp
+96 verbose addNamed [ 'gulp', '' ]
+97 http 304 https://registry.npmjs.org/gulp-rename
+98 silly registry.get cb [ 304,
+98 silly registry.get   { date: 'Sat, 23 May 2015 00:53:22 GMT',
+98 silly registry.get     via: '1.1 varnish',
+98 silly registry.get     'cache-control': 'max-age=60',
+98 silly registry.get     etag: '"402GFFWWWRVVV0EGBHQ3WBQS4"',
+98 silly registry.get     age: '48',
+98 silly registry.get     connection: 'keep-alive',
+98 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+98 silly registry.get     'x-cache': 'HIT',
+98 silly registry.get     'x-cache-hits': '1',
+98 silly registry.get     'x-timer': 'S1432342402.843978,VS0,VE0',
+98 silly registry.get     vary: 'Accept' } ]
+99 verbose etag https://registry.npmjs.org/gulp-rename from cache
+100 silly addNameRange number 2 { name: 'gulp-rename', range: '*', hasData: true }
+101 silly addNameRange versions [ 'gulp-rename',
+101 silly addNameRange   [ '0.1.0', '0.2.1', '0.2.2', '1.0.0', '1.1.0', '1.2.0', '1.2.2' ] ]
+102 verbose addNamed [ 'gulp-rename', '1.2.2' ]
+103 verbose addNamed [ '1.2.2', '1.2.2' ]
+104 silly lockFile 36a270fc-gulp-rename-1-2-2 gulp-rename@1.2.2
+105 verbose lock gulp-rename@1.2.2 C:\Users\adminespec\AppData\Roaming\npm-cache\36a270fc-gulp-rename-1-2-2.lock
+106 silly lockFile 36a270fc-gulp-rename-1-2-2 gulp-rename@1.2.2
+107 silly lockFile 36a270fc-gulp-rename-1-2-2 gulp-rename@1.2.2
+108 silly lockFile 81aa0665-gulp-rename gulp-rename@
+109 silly lockFile 81aa0665-gulp-rename gulp-rename@
+110 http 304 https://registry.npmjs.org/gulp-cssmin
+111 silly registry.get cb [ 304,
+111 silly registry.get   { date: 'Sat, 23 May 2015 00:53:22 GMT',
+111 silly registry.get     via: '1.1 varnish',
+111 silly registry.get     'cache-control': 'max-age=60',
+111 silly registry.get     etag: '"A3QY5PB6I8PIVN0FBSSJJSEO8"',
+111 silly registry.get     age: '0',
+111 silly registry.get     connection: 'keep-alive',
+111 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+111 silly registry.get     'x-cache': 'MISS',
+111 silly registry.get     'x-cache-hits': '0',
+111 silly registry.get     'x-timer': 'S1432342402.858791,VS0,VE28',
+111 silly registry.get     vary: 'Accept' } ]
+112 verbose etag https://registry.npmjs.org/gulp-cssmin from cache
+113 silly addNameRange number 2 { name: 'gulp-cssmin', range: '*', hasData: true }
+114 silly addNameRange versions [ 'gulp-cssmin',
+114 silly addNameRange   [ '0.1.0',
+114 silly addNameRange     '0.1.1',
+114 silly addNameRange     '0.1.2',
+114 silly addNameRange     '0.1.3',
+114 silly addNameRange     '0.1.4',
+114 silly addNameRange     '0.1.5',
+114 silly addNameRange     '0.1.6',
+114 silly addNameRange     '0.1.7' ] ]
+115 verbose addNamed [ 'gulp-cssmin', '0.1.7' ]
+116 verbose addNamed [ '0.1.7', '0.1.7' ]
+117 silly lockFile 385e8602-gulp-cssmin-0-1-7 gulp-cssmin@0.1.7
+118 verbose lock gulp-cssmin@0.1.7 C:\Users\adminespec\AppData\Roaming\npm-cache\385e8602-gulp-cssmin-0-1-7.lock
+119 silly lockFile 385e8602-gulp-cssmin-0-1-7 gulp-cssmin@0.1.7
+120 silly lockFile 385e8602-gulp-cssmin-0-1-7 gulp-cssmin@0.1.7
+121 silly lockFile 2425ce01-gulp-cssmin gulp-cssmin@
+122 silly lockFile 2425ce01-gulp-cssmin gulp-cssmin@
+123 http 404 https://registry.npmjs.org/concat-css
+124 silly registry.get cb [ 404,
+124 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly registry.get     etag: '"7QWMZG9RFEIDY6GFF0Y4SIE6B"',
+124 silly registry.get     'content-type': 'application/json',
+124 silly registry.get     'cache-control': 'max-age=0',
+124 silly registry.get     'content-length': '522',
+124 silly registry.get     'accept-ranges': 'bytes',
+124 silly registry.get     date: 'Sat, 23 May 2015 00:53:22 GMT',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     age: '0',
+124 silly registry.get     connection: 'keep-alive',
+124 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+124 silly registry.get     'x-cache': 'MISS',
+124 silly registry.get     'x-cache-hits': '0',
+124 silly registry.get     'x-timer': 'S1432342402.844384,VS0,VE125',
+124 silly registry.get     vary: 'Accept' } ]
+125 silly lockFile 8ae3c01b-concat-css concat-css@
+126 silly lockFile 8ae3c01b-concat-css concat-css@
+127 http 304 https://registry.npmjs.org/gulp
+128 silly registry.get cb [ 304,
+128 silly registry.get   { date: 'Sat, 23 May 2015 00:53:22 GMT',
+128 silly registry.get     via: '1.1 varnish',
+128 silly registry.get     'cache-control': 'max-age=60',
+128 silly registry.get     etag: '"DO9QOICW8EP2FLDB9V21LAGH6"',
+128 silly registry.get     age: '0',
+128 silly registry.get     connection: 'keep-alive',
+128 silly registry.get     'x-served-by': 'cache-atl6234-ATL',
+128 silly registry.get     'x-cache': 'HIT',
+128 silly registry.get     'x-cache-hits': '1',
+128 silly registry.get     'x-timer': 'S1432342402.853294,VS0,VE380',
+128 silly registry.get     vary: 'Accept' } ]
+129 verbose etag https://registry.npmjs.org/gulp from cache
+130 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+131 silly addNameRange versions [ 'gulp',
+131 silly addNameRange   [ '0.0.1',
+131 silly addNameRange     '0.0.2',
+131 silly addNameRange     '0.0.3',
+131 silly addNameRange     '0.0.4',
+131 silly addNameRange     '0.0.5',
+131 silly addNameRange     '0.0.7',
+131 silly addNameRange     '0.0.8',
+131 silly addNameRange     '0.0.9',
+131 silly addNameRange     '0.1.0',
+131 silly addNameRange     '0.2.0',
+131 silly addNameRange     '1.0.0',
+131 silly addNameRange     '1.1.0',
+131 silly addNameRange     '1.2.0',
+131 silly addNameRange     '1.2.1',
+131 silly addNameRange     '2.0.0',
+131 silly addNameRange     '2.0.1',
+131 silly addNameRange     '2.1.0',
+131 silly addNameRange     '2.2.0',
+131 silly addNameRange     '2.3.0',
+131 silly addNameRange     '2.4.0',
+131 silly addNameRange     '2.4.1',
+131 silly addNameRange     '2.6.0',
+131 silly addNameRange     '2.6.1',
+131 silly addNameRange     '2.7.0',
+131 silly addNameRange     '3.0.0',
+131 silly addNameRange     '3.1.1',
+131 silly addNameRange     '3.1.2',
+131 silly addNameRange     '3.1.3',
+131 silly addNameRange     '3.1.4',
+131 silly addNameRange     '3.2.0',
+131 silly addNameRange     '3.2.1',
+131 silly addNameRange     '3.2.2',
+131 silly addNameRange     '3.2.3',
+131 silly addNameRange     '3.2.4',
+131 silly addNameRange     '3.2.5',
+131 silly addNameRange     '3.3.0',
+131 silly addNameRange     '3.3.1',
+131 silly addNameRange     '3.3.2',
+131 silly addNameRange     '3.3.4',
+131 silly addNameRange     '3.4.0',
+131 silly addNameRange     '3.5.0',
+131 silly addNameRange     '3.5.1',
+131 silly addNameRange     '3.5.2',
+131 silly addNameRange     '3.5.5',
+131 silly addNameRange     '3.5.6',
+131 silly addNameRange     '3.6.0',
+131 silly addNameRange     '3.6.1',
+131 silly addNameRange     '3.6.2',
+131 silly addNameRange     '3.7.0',
+131 silly addNameRange     '3.8.0',
+131 silly addNameRange     '3.8.1',
+131 silly addNameRange     '3.8.2',
+131 silly addNameRange     '3.8.3',
+131 silly addNameRange     '3.8.4',
+131 silly addNameRange     '3.8.5',
+131 silly addNameRange     '3.8.6',
+131 silly addNameRange     '3.8.7',
+131 silly addNameRange     '3.8.8',
+131 silly addNameRange     '3.8.9',
+131 silly addNameRange     '3.8.10',
+131 silly addNameRange     '3.8.11' ] ]
+132 verbose addNamed [ 'gulp', '3.8.11' ]
+133 verbose addNamed [ '3.8.11', '3.8.11' ]
+134 silly lockFile 3d31ec08-gulp-3-8-11 gulp@3.8.11
+135 verbose lock gulp@3.8.11 C:\Users\adminespec\AppData\Roaming\npm-cache\3d31ec08-gulp-3-8-11.lock
+136 silly lockFile 3d31ec08-gulp-3-8-11 gulp@3.8.11
+137 silly lockFile 3d31ec08-gulp-3-8-11 gulp@3.8.11
+138 silly lockFile 72f4391e-gulp gulp@
+139 silly lockFile 72f4391e-gulp gulp@
+140 error 404 Not Found
+140 error 404
+140 error 404 'concat-css' is not in the npm registry.
+140 error 404 You should bug the author to publish it
+140 error 404
+140 error 404 Note that you can also install from a
+140 error 404 tarball, folder, or http url, or git url.
+141 error System Windows_NT 6.1.7601
+142 error command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp" "gulp-cssmin" "gulp-rename" "gulp" "concat-css" "--save-dev"
+143 error cwd c:\wamp\www\joseapp\miapp
+144 error node -v v0.10.32
+145 error npm -v 1.4.28
+146 error code E404
+147 verbose exit [ 1, true ]
